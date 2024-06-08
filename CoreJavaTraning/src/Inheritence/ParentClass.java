@@ -1,4 +1,4 @@
-package Interface;
+package Inheritence;
 
 public class ParentClass {
 	
