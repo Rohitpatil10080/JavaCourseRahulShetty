@@ -1,0 +1,5 @@
+package Interfaceexample;
+
+public interface TrainSymbol {
+
+}

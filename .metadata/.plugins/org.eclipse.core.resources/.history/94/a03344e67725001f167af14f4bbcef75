@@ -1,0 +1,38 @@
+
+public class Assignment4 {
+
+	public static void main(String[] args) {
+	
+
+		int k=3;
+		int start=3;
+		
+		
+		for (int i=i;i<=k; i++)
+		{
+			for (int j=0;j<=i; j++)
+			{
+				System.out.print(j*i);
+			}
+			
+			System.out.println("");
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

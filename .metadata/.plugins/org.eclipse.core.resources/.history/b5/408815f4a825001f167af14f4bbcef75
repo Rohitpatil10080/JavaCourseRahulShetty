@@ -1,0 +1,25 @@
+package Interface;
+
+public class ChieldClass {
+	
+	
+	public void engine()
+	{
+       System.out.println("new engine");
+	}
+	
+	public void colour()
+	{
+		System.out.println(colour);
+	}
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ChieldClass ch=new ChieldClass();
+		ch.colour();
+
+	}
+
+}

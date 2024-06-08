@@ -1,0 +1,28 @@
+
+public class FirstClass {
+	
+	
+	
+	
+	
+	public void SetData()
+	{
+		int a=4;
+		
+		System.out.println("Hello");
+	}
+
+	public static void main(String[] args) {
+		
+		
+		FirstClass fn = new FirstClass();
+		fn.SetData();
+		
+		SecondClass fs = new SecondClass();
+		fs.Capture();
+	
+		
+		
+	}
+
+}

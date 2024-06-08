@@ -1,0 +1,47 @@
+package Interfaceexample;
+
+public class AustrelianTraffic implements CentralTraffic {
+
+	public static void main(String[] args) {
+		
+		
+		
+		CentralTraffic a=new AustrelianTraffic();
+		a.GreenGo();
+		a.RedStop();
+		a.Yelowwait();
+		
+		
+
+	}
+
+	public void walking()
+	{
+		System.out.println("walking");
+	}
+	
+	@Override
+	public void GreenGo() {
+		// TODO Auto-generated method stub
+		
+		System.out.println("Green implementation");
+		
+	}
+
+	@Override
+	public void RedStop() {
+		// TODO Auto-generated method stub
+		
+		
+		System.out.println("Red implementation");
+	}
+
+	@Override
+	public void Yelowwait() {
+		// TODO Auto-generated method stub
+		
+		System.out.println("Yellow implementation");
+		
+	}
+
+}
